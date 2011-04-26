@@ -1,0 +1,275 @@
+body {
+  font-size:14px;
+  font-family:Verdana,Arial;
+  color:#736f6f;
+  background-color:#ebebeb;
+  background-image:url(images/body-background.png);
+  background-repeat:repeat-y;
+  background-position:50% 0%;
+}
+
+a {
+  color:#736f6f;
+  text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:normal;
+}
+
+h1 {
+  font-size: 1.7em;
+  line-height: 1.6em;
+  margin-bottom: 0.5em;
+  margin-top: 0px;
+}
+
+#site-name {
+  display:none;
+}
+
+#site-slogan {
+  left: -97px;
+  position: relative;
+  top: 43px;
+  color:#999;
+}
+
+#content-area .node a {
+  text-decoration:underline;
+}
+
+#content-area table {
+  width:100%;
+}
+
+#content-area table thead {
+  font-weight:bold;
+  border-bottom: 3px solid #91CA42;
+}
+
+#content-area table td,
+#content-area table th {
+  padding:10px 0;
+}
+
+.node .meta {
+  display:none;
+} 
+
+#page-wrapper {
+  width:100%;
+}
+
+#header {
+  background-color:#f3f3f3;
+  background-image:url(images/header-background.png);
+  background-repeat:repeat-y;
+  background-position:50% 0%;
+  padding-top:15px;
+  height:90px;
+}
+
+#header .section, #main-wrapper, #footer {
+  padding:0 14px;
+  width:936px;
+  margin:auto;
+}
+
+#footer {
+  padding:0;
+}
+
+#content, .no-sidebars #content {
+  float: left;
+  margin-left: 0px;
+  margin-right: -936px;
+  padding: 0px;
+  width: 936px;
+}
+
+.region-sidebar-first .block h2.title {
+  background-image:url(images/block-title-background.png);
+  font-size:1.1em;
+  padding:8px 10px;
+}
+
+.region-sidebar-first .block {
+  background-image:url(images/block-main-background.png);
+}
+
+.region-sidebar-first .block .content {
+  background-image:url(images/block-bottom-background.png);
+  background-repeat:no-repeat;
+  background-position:bottom left;
+  padding:10px 0 15px 10px;
+}
+
+.region-sidebar-first .block .content p {
+  margin:0;
+}
+
+.region-sidebar-first .section {
+  margin: 0px 15px 0px 0px;
+  padding: 0px;
+}
+
+.region-sidebar-first .block ul {
+  margin:0;
+  padding:0;
+}
+
+.region-sidebar-first .block ul li {
+  list-style:none;
+  margin: 0px 0px 0px -6px;
+  padding: 0;
+}
+
+.region-sidebar-first .block ul li a {
+  padding: 5px 5px 5px 6px;
+  display: block;
+}
+
+.sidebar-first #content {
+  margin-left: 200px;
+  margin-right: -960px;
+  width: 738px;
+}
+
+.region-sidebar-first {
+  float: left;
+  margin-left: 0px;
+  margin-right: -195px;
+  padding: 0px;
+  width: 195px;
+}
+
+.breadcrumb {
+  margin:5px 0;
+}
+
+.with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {
+  margin-top: 3.2em;
+}
+
+#navigation,
+#footer {
+  margin-top:-14px;
+  background-image:url(images/menu-background.png);
+  height:32px;
+}
+
+#footer {
+  margin: 5px auto 10px;
+  color:#fff;
+}
+
+#footer a {
+  color:#fff;
+}
+
+#navigation .section,
+#footer .section {
+  background-image:url(images/menu-left-background.png);
+  background-repeat:no-repeat;
+  height: 32px;
+}
+
+#navigation ul,
+#footer-message {
+  margin:0 0 0 8px;
+  background-image:url(images/menu-right-background.png);
+  background-repeat:no-repeat;
+  background-position:right top;
+}
+
+#footer-message {
+  padding: 9px 5px 8px;
+}
+
+#navigation li {
+  margin:0;
+  padding:0;
+}
+
+#navigation a {
+  color:#ffffff;
+  padding:8px 10px;
+  display:block;
+  padding: 9px 18px 8px;
+  background-image:url(images/menu-separator.png);
+  background-repeat:no-repeat;
+  background-position:right 50%;
+}
+
+#navigation .last a {
+  background-image:none;
+}
+
+#navigation a:hover,
+#navigation a.active,
+#navigation li.active-trail a {
+  background-color:#afde6d;
+}
+
+/* Contact page */
+.page-contact .contact {
+  float:right;
+  width:450px;
+}
+
+.view-content {
+  margin-bottom:15px;
+}
+
+.front .view-content { 
+  margin:0; 
+}
+
+.view-slideshow {
+  overflow:hidden;
+  margin-bottom:15px;
+}
+
+.view-slideshow .views-field-body {
+  background-color:#000;
+  z-index:10;
+  position:relative;
+  padding:10px;
+}
+
+.view-slideshow a {
+  color:#fff;
+}
+
+.view-slideshow .views-field-field-image-fid {
+  z-index:0;
+}
+
+.view-slideshow .views-field-body .field-content p {
+  margin:0;
+}
+
+ul.pager {
+  margin:20px 0;
+}
+
+li a.active,
+li.active-trail a {
+  color: #736f6f;
+}
+
+.view-taxonomy-term td {
+  width:25%;
+}
+
+.view-product-list .item-list {
+  float:left;
+  width:45%;
+  margin-right:10px;
+  padding-left:8px;
+}
+
+.front .breadcrumb {
+  display:none;
+}
